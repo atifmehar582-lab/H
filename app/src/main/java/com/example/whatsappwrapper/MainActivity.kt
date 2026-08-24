@@ -86,7 +86,11 @@ class MainActivity : AppCompatActivity() {
         settings.userAgentString =
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
             "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-
+        
+settings.loadWithOverviewMode = true
+        settings.useWideViewPort = true
+        settings.textZoom = 100
+        
         settings.builtInZoomControls = true
         settings.displayZoomControls = false
 
